@@ -1,0 +1,24 @@
+h1 {
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+#chatRoom {
+	display: none;
+	margin-top: 10px;
+}
+.avatar-placeholder {
+	margin: 0 0 10px 0;
+}
+.avatar-placeholder img {
+	width: 100%;
+}
+.alert {
+	margin-top: 10px;
+}
+.media {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #d2d2d2;
+}

@@ -1,0 +1,12 @@
+html
+	head
+		title!= title
+	body
+		form#form(action='birds', method='POST')
+			div: input(type='text', name='name')
+			div: input(type='submit')
+		strong!= message
+		ul.birds
+			- for (var i=0; i<birds.length; i++ )
+				li
+					!= birds[i].name + '<strong>' + birds[i].id + '</strong>'

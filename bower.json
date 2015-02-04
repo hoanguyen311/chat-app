@@ -1,0 +1,21 @@
+{
+  "name": "express-demo",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Hoa Nguyen <hoa.nguyen-thai@lazada.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "underscore": "~1.7.0"
+  }
+}
